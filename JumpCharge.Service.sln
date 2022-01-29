@@ -3,25 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpCharge.API", "JumpCharge.API\JumpCharge.API.csproj", "{E4241883-CB9C-4570-B278-6B662DF6BE45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpCharge.API", "JumpCharge.API\JumpCharge.API.csproj", "{E4241883-CB9C-4570-B278-6B662DF6BE45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpCharge.AppNotification", "JumpCharge.AppNotification\JumpCharge.AppNotification.csproj", "{C774BB5D-C757-4965-97B6-B974C53732B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpCharge.AppNotification", "JumpCharge.AppNotification\JumpCharge.AppNotification.csproj", "{C774BB5D-C757-4965-97B6-B974C53732B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpCharge.EmailNotification", "JumpCharge.EmailNotification\JumpCharge.EmailNotification.csproj", "{6C95A42D-BD08-4F83-8150-904AD8E5F43A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpCharge.EmailNotification", "JumpCharge.EmailNotification\JumpCharge.EmailNotification.csproj", "{6C95A42D-BD08-4F83-8150-904AD8E5F43A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpCharge.Helpers", "JumpCharge.Helpers\JumpCharge.Helpers.csproj", "{B2335F11-07FF-4AE9-AF12-113722EE13B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpCharge.Helpers", "JumpCharge.Helpers\JumpCharge.Helpers.csproj", "{B2335F11-07FF-4AE9-AF12-113722EE13B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpCharge.Extensions", "JumpCharge.Extensions\JumpCharge.Extensions.csproj", "{3ECB9A79-619C-415F-87DB-E0BDFF8B00E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpCharge.Extensions", "JumpCharge.Extensions\JumpCharge.Extensions.csproj", "{3ECB9A79-619C-415F-87DB-E0BDFF8B00E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpCharge.StorageService", "JumpCharge.StorageService\JumpCharge.StorageService.csproj", "{ABB3585F-8B95-4625-936D-6F23BAC893E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpCharge.StorageService", "JumpCharge.StorageService\JumpCharge.StorageService.csproj", "{ABB3585F-8B95-4625-936D-6F23BAC893E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpCharge.DbBridge", "JumpCharge.DbBridge\JumpCharge.DbBridge.csproj", "{455BF19A-57B5-4093-B705-6E4E8B0807EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpCharge.DbBridge", "JumpCharge.DbBridge\JumpCharge.DbBridge.csproj", "{455BF19A-57B5-4093-B705-6E4E8B0807EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpCharge.BLL", "JumpCharge.BLL\JumpCharge.BLL.csproj", "{6CECCCC0-C1B9-4EEC-A16D-2505DA89FB9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpCharge.BLL", "JumpCharge.BLL\JumpCharge.BLL.csproj", "{6CECCCC0-C1B9-4EEC-A16D-2505DA89FB9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpCharge.BO", "JumpCharge.BO\JumpCharge.BO.csproj", "{A7E8E7AE-15E1-4DCA-8CA8-31A80A1A4D1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpCharge.BO", "JumpCharge.BO\JumpCharge.BO.csproj", "{A7E8E7AE-15E1-4DCA-8CA8-31A80A1A4D1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpCharge.API.Model", "JumpCharge.API.Model\JumpCharge.API.Model.csproj", "{039E4194-F30D-4D4A-84B4-6D406DF4E2ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpCharge.API.Model", "JumpCharge.API.Model\JumpCharge.API.Model.csproj", "{039E4194-F30D-4D4A-84B4-6D406DF4E2ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpCharge.MQTT", "JumpCharge.MQTT\JumpCharge.MQTT.csproj", "{5FC1D9A2-6BDF-443B-ACA8-3D15CB96618D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{039E4194-F30D-4D4A-84B4-6D406DF4E2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{039E4194-F30D-4D4A-84B4-6D406DF4E2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{039E4194-F30D-4D4A-84B4-6D406DF4E2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC1D9A2-6BDF-443B-ACA8-3D15CB96618D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC1D9A2-6BDF-443B-ACA8-3D15CB96618D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC1D9A2-6BDF-443B-ACA8-3D15CB96618D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC1D9A2-6BDF-443B-ACA8-3D15CB96618D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

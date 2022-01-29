@@ -6,10 +6,6 @@ namespace JumpCharge.DbBridge.Contracts
 {
     public enum DBProvider
     {
-        SQL,
-        Oracle,
-        OleDb,
-        Odbc,
         MySQL
     }
     public interface IDBManager : IDisposable

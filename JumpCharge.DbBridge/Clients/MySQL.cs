@@ -27,7 +27,7 @@ namespace JumpCharge.DbBridge.Clients
                 throw ex;
             }
         }
-        public DBProvider Provider => DBProvider.SQL;
+        public DBProvider Provider => DBProvider.MySQL;
         public DataTable Execute(string query)
         {
             return Execute(query, new Hashtable(), CommandType.Text);
